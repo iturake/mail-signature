@@ -2,3 +2,13 @@
     font-family: Parisienne;
     src: url("../font/parisienne.ttf");
 }
+
+@font-face {
+    font-family: SourceSans-Light-Italic;
+    src: url("../font/SourceSansPro-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: SourceSans-Regular;
+    src: url("../font/SourceSansPro-Regular.ttf");
+}

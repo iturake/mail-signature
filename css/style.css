@@ -1,69 +1,169 @@
-.signature {
-    height: 200px;
-    width: 600px;
-    background-image: url("../img/frame.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+a {
+ text-decoration: none;
 }
 
-.left-side {
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    left: 0px;
+.frame {
+    width: 640px;
+    height: 250px;
+    font-size: 1em; 
 }
 
-.right-side {
-    height: 200px;
-    width: 400px;
-    position: absolute;
-    right: 0px;
-}
-
-.content {
-    height: 125px;
-    width: 350px;
-    position: absolute;
-    top: 36.5px;
-    left: 15px;
-    background-color: burlywood;
-}
-
-.social-media {
-    height: 125px;
-    width: 35px;
-    position: absolute;
-    right: 0px;
-    top: 36.5px;
-    background-color: seashell;
-}
-
-.r-bottom {
-    height: 22.5px;
-    width: 385px;
-    position: absolute;
-    left: 15px;
-    bottom: 0px;
-    background-color: silver;
+.logo-frame {
+    width: 250px; 
+    height: 250px;
+    font-size: 1em; 
+    border-right: 1px double; 
+    border-right-color: #ff0000; 
+    vertical-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .rake-logo {
-    width: 180px;
-    height: auto;
-    position: absolute;
-    left: 10px;
-    top: 15px;
+    width: 250px; 
+    height: auto; 
+    border: 0; 
+    vertical-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .rake-motto {
-    width: 200px;
+    width: 250px;
     height: auto;
-    position: absolute;
+    border: 0;
+    vertical-align: center;
     text-align: center;
-    color: #fbfaf2;
-    bottom: 10px;
-    font-family: Parisienne;
-    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: SourceSans-Light-Italic;
+    font-size: 25px;
 }
+
+.info-frame {
+    margin: 0;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 350px;
+    position: relative;
+}
+
+.red-headline {
+    font-weight: 600;
+    color: #d62828;
+    font-size: 1.2em;
+    font-family: SourceSans-Regular;
+}
+
+.rake {
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+    font-family: SourceSans-Regular;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.rake-member {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 350px;
+    height: 150px;
+    padding: 0;
+    vertical-align: center;
+}
+
+.rake-social-media {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    width: 350px;
+    padding: 0;
+    vertical-align: center;
+    text-align: center;
+}
+
+.rake-media {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 350px;
+    height: 1em;
+    padding: 0;
+    vertical-align: center;
+}
+
+.rake-member-info {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.rake-member-name {
+    font-size: 1.2em; 
+    font-family: SourceSans-Regular; 
+    color:#d62828; 
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.rake-member-team {
+    font-family: SourceSans-Light-Italic; 
+    font-size:1em; 
+    color:#333333; 
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.rake-member-mail {
+    font-size: 1em; 
+    font-family: SourceSans-Regular; 
+    color:#333333;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.rake-member-phone {
+    font-size: 1em; 
+    font-family: SourceSans-Regular; 
+    color:#333333;
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.rake-address {
+    font-family: SourceSans-Regular; 
+    font-size:1em; 
+    color:#333333;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
+
+.rake-mail {
+    text-decoration:none; 
+    font-size: 1em; 
+    font-family: SourceSans-Light-Italic; 
+    color:#333333;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+
+.rake-website {
+    text-decoration:none; 
+    font-size: 1em; 
+    font-family: SourceSans-Light-Italic; 
+    color:#333333;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
